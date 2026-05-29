@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julien Nicolas — macOS Apps & Utilities</title>
+  <meta name="description" content="Small, focused macOS apps and developer tools by Julien Nicolas — Quick Look extensions, menu-bar utilities, and SwiftUI libraries." />
+  <meta property="og:title" content="Julien Nicolas — macOS Apps & Utilities" />
+  <meta property="og:description" content="Small, focused macOS apps and developer tools." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jjnicolas.github.io" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Apps &amp; Utilities</h1>
+      <p class="tagline">Small, focused macOS tools by <strong>Julien Nicolas</strong>.<br />Sandboxed, fast, and built to disappear into your workflow.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid" aria-label="Apps">
+
+      <!-- MarkdownPreview -->
+      <article class="card">
+        <div class="icon" aria-hidden="true">📝</div>
+        <h2>MarkdownPreview</h2>
+        <p class="desc">A Quick Look extension that renders Markdown files in Finder — just press Space. GitHub-style output with syntax highlighting, math, and dark mode.</p>
+        <ul class="tags">
+          <li>Quick Look</li>
+          <li>macOS 26+</li>
+          <li>Free</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/jjnicolas/MarkdownPreview-releases/releases/latest">Download</a>
+          <a class="btn" href="https://github.com/jjnicolas/MarkdownPreview-releases">Details</a>
+        </div>
+      </article>
+
+      <!-- YAMLPreview -->
+      <article class="card">
+        <div class="icon" aria-hidden="true">📄</div>
+        <h2>YAMLPreview</h2>
+        <p class="desc">A Quick Look extension for <code>.yml</code> / <code>.yaml</code> files. Preview configuration and data files with clean syntax highlighting, right from Finder.</p>
+        <ul class="tags">
+          <li>Quick Look</li>
+          <li>macOS 26+</li>
+          <li>Free</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/jjnicolas/YAMLPreview-releases/releases/latest">Download</a>
+          <a class="btn" href="https://github.com/jjnicolas/YAMLPreview-releases">Details</a>
+        </div>
+      </article>
+
+      <!-- GridNavigation -->
+      <article class="card">
+        <div class="icon" aria-hidden="true">⌗</div>
+        <h2>GridNavigation</h2>
+        <p class="desc">A high-performance, cross-platform SwiftUI grid-navigation library with full keyboard support. For developers building grid-based interfaces.</p>
+        <ul class="tags">
+          <li>SwiftUI</li>
+          <li>Swift Package</li>
+          <li>Open source</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/jjnicolas/GridNavigation">View on GitHub</a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Built with Swift &amp; SwiftUI · <a href="https://github.com/jjnicolas">github.com/jjnicolas</a></p>
+      <p class="fine">© <span id="year">2026</span> Julien Nicolas · Released under the MIT License</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
