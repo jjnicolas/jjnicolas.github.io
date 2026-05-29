@@ -92,9 +92,19 @@ body {
 }
 
 .icon {
-  font-size: 2.6rem;
-  line-height: 1;
+  width: 72px;
+  height: 72px;
   margin-bottom: 16px;
+  border-radius: 16px;
+  display: block;
+}
+
+.icon-glyph {
+  display: flex;
+}
+
+.icon-glyph svg {
+  border-radius: 16px;
 }
 
 .card h2 {
