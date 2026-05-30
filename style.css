@@ -99,14 +99,6 @@ body {
   display: block;
 }
 
-.icon-glyph {
-  display: flex;
-}
-
-.icon-glyph svg {
-  border-radius: 16px;
-}
-
 .card h2 {
   font-size: 1.4rem;
   font-weight: 600;
