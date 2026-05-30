@@ -3,14 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Julien Nicolas — Apps & Utilities</title>
-  <meta name="description" content="Small, focused apps and developer tools for macOS & iOS by Julien Nicolas — Quick Look extensions, a SwiftUI library, and an App Store game." />
-  <meta property="og:title" content="Julien Nicolas — Apps & Utilities" />
-  <meta property="og:description" content="Small, focused apps and developer tools for macOS & iOS." />
+  <title>MarkdownPreview — macOS Markdown Quick Look Extension | Apps &amp; Utilities by Julien Nicolas</title>
+  <meta name="description" content="MarkdownPreview renders Markdown files in macOS Finder with Quick Look — just press Space. Also: YAMLPreview, GridNavigation, and iDigits. Free, sandboxed, notarized." />
+  <meta property="og:title" content="MarkdownPreview — macOS Markdown Quick Look Extension &amp; More" />
+  <meta property="og:description" content="Quick Look extensions for Markdown &amp; YAML, a SwiftUI grid-navigation library, and an iOS math puzzle game. Free, native, built by Julien Nicolas." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://apps.tnfnet.org" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Apps & Utilities by Julien Nicolas",
+    "url": "https://apps.tnfnet.org",
+    "numberOfItems": 4,
+    "itemListElement": [{
+      "@type": "ListItem", "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "MarkdownPreview",
+        "operatingSystem": "macOS",
+        "applicationCategory": "DeveloperApplication",
+        "description": "A macOS Quick Look extension that renders Markdown files in Finder — just press Space. GitHub-style output with syntax highlighting, math, and dark mode.",
+        "url": "https://github.com/jjnicolas/MarkdownPreview-releases",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    },{
+      "@type": "ListItem", "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "YAMLPreview",
+        "operatingSystem": "macOS",
+        "applicationCategory": "DeveloperApplication",
+        "description": "A macOS Quick Look extension for .yml/.yaml files with syntax highlighting and line numbers — just press Space in Finder.",
+        "url": "https://github.com/jjnicolas/YAMLPreview-releases",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    },{
+      "@type": "ListItem", "position": 3,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "GridNavigation",
+        "operatingSystem": "iOS, macOS",
+        "applicationCategory": "DeveloperApplication",
+        "description": "A high-performance, cross-platform SwiftUI grid-navigation library with full keyboard support, virtualization, and accessibility built in.",
+        "url": "https://github.com/jjnicolas/GridNavigation",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    },{
+      "@type": "ListItem", "position": 4,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "iDigits",
+        "operatingSystem": "iOS",
+        "applicationCategory": "GameApplication",
+        "description": "A math puzzle game for iPhone and iPad — combine numbers and operators to hit the target. Quick, addictive mental-math workouts.",
+        "url": "https://apps.apple.com/us/app/idigits-math-puzzle-game/id6757621426",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    }]
+  }
+  </script>
 </head>
 <body>
   <header class="hero">
@@ -87,6 +145,27 @@
         </div>
       </article>
 
+    </section>
+
+    <section class="about" aria-label="About these apps">
+      <h2>Preview Markdown &amp; YAML in Finder, for free</h2>
+      <p><strong>MarkdownPreview</strong> is a lightweight macOS Quick Look extension for previewing Markdown files.
+      Select any <code>.md</code>, <code>.markdown</code>, <code>.mdown</code>, or <code>.mkd</code> file in Finder and press
+      the Space bar — you&#8217;ll see a fully rendered preview with headings, tables, code blocks
+      (with syntax highlighting), math typesetting via KaTeX, and automatic light/dark mode.
+      It&#8217;s sandboxed, works entirely offline, and auto-updates through Sparkle.
+      The app is signed with a Developer ID and notarized by Apple — no Gatekeeper warnings.</p>
+
+      <p><strong>YAMLPreview</strong> does the same for <code>.yml</code> and <code>.yaml</code> files — a format
+      macOS has no built-in preview for. It adds syntax highlighting and an optional line-number gutter,
+      using the same sandboxed, notarized architecture as MarkdownPreview.</p>
+
+      <p>Both are part of a small suite of <strong>free macOS &amp; iOS tools</strong> by
+      <a href="https://github.com/jjnicolas">Julien Nicolas</a>, built in Swift and SwiftUI.
+      Also available: <a href="https://github.com/jjnicolas/GridNavigation">GridNavigation</a>
+      (a cross-platform SwiftUI grid-navigation library) and
+      <a href="https://apps.apple.com/us/app/idigits-math-puzzle-game/id6757621426">iDigits</a>
+      (a math puzzle game on the iOS App Store).</p>
     </section>
   </main>
 

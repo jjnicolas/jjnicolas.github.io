@@ -181,6 +181,38 @@ body {
 
 .btn-appstore:hover { transform: scale(1.03); }
 
+/* About section */
+.about {
+  padding: 0 0 48px;
+}
+
+.about h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 14px;
+}
+
+.about p {
+  margin: 0 0 12px;
+  font-size: 0.98rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.about p strong { color: var(--text); }
+
+.about code {
+  font-family: "SF Mono", ui-monospace, Menlo, monospace;
+  font-size: 0.85em;
+  background: var(--tag-bg);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.about a { color: var(--accent); text-decoration: none; }
+.about a:hover { text-decoration: underline; }
+
 /* Footer */
 footer {
   border-top: 1px solid var(--border);
