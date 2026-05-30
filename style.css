@@ -137,6 +137,12 @@ body {
   border-radius: 999px;
 }
 
+.tags li.plat {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  font-weight: 600;
+}
+
 .actions {
   display: flex;
   gap: 10px;
@@ -164,6 +170,16 @@ body {
 }
 
 .btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+.btn-appstore {
+  display: inline-block;
+  line-height: 0;
+  transition: transform .15s ease;
+}
+
+.btn-appstore img { height: 40px; width: auto; display: block; }
+
+.btn-appstore:hover { transform: scale(1.03); }
 
 /* Footer */
 footer {
