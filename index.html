@@ -17,7 +17,7 @@
     "@type": "ItemList",
     "name": "Apps & Utilities by Julien Nicolas",
     "url": "https://apps.tnfnet.org",
-    "numberOfItems": 4,
+    "numberOfItems": 5,
     "itemListElement": [{
       "@type": "ListItem", "position": 1,
       "item": {
@@ -46,6 +46,18 @@
       "@type": "ListItem", "position": 3,
       "item": {
         "@type": "SoftwareApplication",
+        "name": "SweepBar",
+        "operatingSystem": "macOS",
+        "applicationCategory": "UtilitiesApplication",
+        "description": "A menu-bar utility for safe, scan-first macOS cleanup — review and reclaim caches, logs, and Xcode/developer junk before anything is removed. Notarized; auto-updates via Sparkle.",
+        "url": "https://github.com/jjnicolas/sweep",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    },{
+      "@type": "ListItem", "position": 4,
+      "item": {
+        "@type": "SoftwareApplication",
         "name": "GridNavigation",
         "operatingSystem": "iOS, macOS",
         "applicationCategory": "DeveloperApplication",
@@ -55,7 +67,7 @@
         "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
       }
     },{
-      "@type": "ListItem", "position": 4,
+      "@type": "ListItem", "position": 5,
       "item": {
         "@type": "SoftwareApplication",
         "name": "iDigits",
@@ -113,6 +125,22 @@
         </div>
       </article>
 
+      <!-- SweepBar -->
+      <article class="card">
+        <img class="icon" src="icons/sweepbar.png" alt="SweepBar app icon" width="72" height="72" />
+        <h2>SweepBar</h2>
+        <p class="desc">A menu-bar utility for safe, scan-first macOS cleanup. Review caches, logs, and Xcode &amp; developer junk in a checklist — then reclaim the space. Nothing is removed without your confirmation.</p>
+        <ul class="tags">
+          <li class="plat">macOS</li>
+          <li>Menu bar</li>
+          <li>Open source</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/jjnicolas/sweep-releases/releases/latest">Download</a>
+          <a class="btn" href="https://github.com/jjnicolas/sweep">Details</a>
+        </div>
+      </article>
+
       <!-- GridNavigation -->
       <article class="card">
         <img class="icon" src="icons/gridnavigation.png" alt="GridNavigation icon" width="72" height="72" />
@@ -162,7 +190,9 @@
 
       <p>Both are part of a small suite of <strong>free macOS &amp; iOS tools</strong> by
       <a href="https://github.com/jjnicolas">Julien Nicolas</a>, built in Swift and SwiftUI.
-      Also available: <a href="https://github.com/jjnicolas/GridNavigation">GridNavigation</a>
+      Also available: <a href="https://github.com/jjnicolas/sweep">SweepBar</a>
+      (a menu-bar macOS cleanup utility),
+      <a href="https://github.com/jjnicolas/GridNavigation">GridNavigation</a>
       (a cross-platform SwiftUI grid-navigation library) and
       <a href="https://apps.apple.com/us/app/idigits-math-puzzle-game/id6757621426">iDigits</a>
       (a math puzzle game on the iOS App Store).</p>
