@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MarkdownPreview, SweepBar &amp; more — macOS &amp; iOS Apps &amp; Utilities by Julien Nicolas</title>
-  <meta name="description" content="Free, native macOS &amp; iOS tools by Julien Nicolas: MarkdownPreview &amp; YAMLPreview Quick Look extensions, SweepBar menu-bar cleanup, the GridNavigation SwiftUI library, and the iDigits game." />
-  <meta property="og:title" content="MarkdownPreview, SweepBar &amp; more — Apps &amp; Utilities by Julien Nicolas" />
-  <meta property="og:description" content="Quick Look extensions for Markdown &amp; YAML, SweepBar menu-bar macOS cleanup, a SwiftUI grid-navigation library, and an iOS math puzzle game. Free, native, built by Julien Nicolas." />
+  <title>MarkdownPreview, XcodeCleaner, SweepBar &amp; more — macOS &amp; iOS Apps &amp; Utilities by Julien Nicolas</title>
+  <meta name="description" content="Free, native macOS &amp; iOS tools by Julien Nicolas: MarkdownPreview &amp; YAMLPreview Quick Look extensions, XcodeCleaner, SweepBar menu-bar cleanup, the GridNavigation SwiftUI library, and the iDigits game." />
+  <meta property="og:title" content="MarkdownPreview, XcodeCleaner, SweepBar &amp; more — Apps &amp; Utilities by Julien Nicolas" />
+  <meta property="og:description" content="Quick Look extensions for Markdown &amp; YAML, XcodeCleaner to reclaim Xcode disk space, SweepBar menu-bar macOS cleanup, a SwiftUI grid-navigation library, and an iOS math puzzle game. Free, native, built by Julien Nicolas." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://apps.tnfnet.org" />
   <link rel="stylesheet" href="style.css" />
@@ -17,7 +17,7 @@
     "@type": "ItemList",
     "name": "Apps & Utilities by Julien Nicolas",
     "url": "https://apps.tnfnet.org",
-    "numberOfItems": 5,
+    "numberOfItems": 6,
     "itemListElement": [{
       "@type": "ListItem", "position": 1,
       "item": {
@@ -58,6 +58,18 @@
       "@type": "ListItem", "position": 4,
       "item": {
         "@type": "SoftwareApplication",
+        "name": "XcodeCleaner",
+        "operatingSystem": "macOS",
+        "applicationCategory": "DeveloperApplication",
+        "description": "Reclaim disk space from Xcode caches, simulators, device-support files, and more — scan, review, and clean with one click. Notarized; auto-updates via Sparkle.",
+        "url": "https://github.com/jjnicolas/XcodeCleaner-releases",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    },{
+      "@type": "ListItem", "position": 5,
+      "item": {
+        "@type": "SoftwareApplication",
         "name": "GridNavigation",
         "operatingSystem": "iOS, macOS",
         "applicationCategory": "DeveloperApplication",
@@ -67,7 +79,7 @@
         "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
       }
     },{
-      "@type": "ListItem", "position": 5,
+      "@type": "ListItem", "position": 6,
       "item": {
         "@type": "SoftwareApplication",
         "name": "iDigits",
@@ -141,6 +153,22 @@
         </div>
       </article>
 
+      <!-- XcodeCleaner -->
+      <article class="card">
+        <img class="icon" src="icons/xcodecleaner.png" alt="XcodeCleaner app icon" width="72" height="72" />
+        <h2>XcodeCleaner</h2>
+        <p class="desc">Reclaim gigabytes of disk space from Xcode caches — DerivedData, simulators, device‑support files, Swift Package caches, and more. Scan, review, and clean with one click.</p>
+        <ul class="tags">
+          <li class="plat">macOS</li>
+          <li>Developer tool</li>
+          <li>Free</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/jjnicolas/XcodeCleaner-releases/releases/latest">Download</a>
+          <a class="btn" href="https://github.com/jjnicolas/XcodeCleaner-releases">Details</a>
+        </div>
+      </article>
+
       <!-- GridNavigation -->
       <article class="card">
         <img class="icon" src="icons/gridnavigation.png" alt="GridNavigation icon" width="72" height="72" />
@@ -188,7 +216,12 @@
       macOS has no built-in preview for. It adds syntax highlighting and an optional line-number gutter,
       using the same sandboxed, notarized architecture as MarkdownPreview.</p>
 
-      <p>Both are part of a small suite of <strong>free macOS &amp; iOS tools</strong> by
+      <p><strong>XcodeCleaner</strong> reclaims disk space from Xcode's accumulated junk —
+      DerivedData, device‑support symbols, simulators, archives, Swift Package caches,
+      and expired provisioning profiles. Scan, review what you want to remove, and
+      clean with one click. Developer ID signed, notarized, and auto‑updated via Sparkle.</p>
+
+      <p>All are part of a small suite of <strong>free macOS &amp; iOS tools</strong> by
       <a href="https://github.com/jjnicolas">Julien Nicolas</a>, built in Swift and SwiftUI.
       Also available: <a href="https://github.com/jjnicolas/sweep">SweepBar</a>
       (a menu-bar macOS cleanup utility),
