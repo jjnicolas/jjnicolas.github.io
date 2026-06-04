@@ -17,7 +17,7 @@
     "@type": "ItemList",
     "name": "Apps & Utilities by Julien Nicolas",
     "url": "https://apps.tnfnet.org",
-    "numberOfItems": 6,
+    "numberOfItems": 7,
     "itemListElement": [{
       "@type": "ListItem", "position": 1,
       "item": {
@@ -70,6 +70,18 @@
       "@type": "ListItem", "position": 5,
       "item": {
         "@type": "SoftwareApplication",
+        "name": "iOS IPA Install",
+        "operatingSystem": "macOS",
+        "applicationCategory": "DeveloperApplication",
+        "description": "A macOS app that installs iOS .ipa packages onto development devices via Apple's cfgutil, with automatic device detection. Notarized; auto-updates via Sparkle.",
+        "url": "https://github.com/jjnicolas/IOS_IPA_Install",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
+      }
+    },{
+      "@type": "ListItem", "position": 6,
+      "item": {
+        "@type": "SoftwareApplication",
         "name": "GridNavigation",
         "operatingSystem": "iOS, macOS",
         "applicationCategory": "DeveloperApplication",
@@ -79,7 +91,7 @@
         "author": { "@type": "Person", "name": "Julien Nicolas", "url": "https://github.com/jjnicolas" }
       }
     },{
-      "@type": "ListItem", "position": 6,
+      "@type": "ListItem", "position": 7,
       "item": {
         "@type": "SoftwareApplication",
         "name": "iDigits",
@@ -169,6 +181,22 @@
         </div>
       </article>
 
+      <!-- iOS IPA Install -->
+      <article class="card">
+        <img class="icon" src="icons/iosipainstall.png" alt="iOS IPA Install app icon" width="72" height="72" />
+        <h2>iOS IPA Install</h2>
+        <p class="desc">Install iOS <code>.ipa</code> packages onto development devices straight from Finder — right-click an IPA, pick the connected device, and install via Apple&#8217;s <code>cfgutil</code>. Automatic device detection included.</p>
+        <ul class="tags">
+          <li class="plat">macOS</li>
+          <li>Developer tool</li>
+          <li>Open source</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/jjnicolas/IOS-IPA-Install-releases/releases/latest">Download</a>
+          <a class="btn" href="https://github.com/jjnicolas/IOS_IPA_Install">Details</a>
+        </div>
+      </article>
+
       <!-- GridNavigation -->
       <article class="card">
         <img class="icon" src="icons/gridnavigation.png" alt="GridNavigation icon" width="72" height="72" />
@@ -225,6 +253,8 @@
       <a href="https://github.com/jjnicolas">Julien Nicolas</a>, built in Swift and SwiftUI.
       Also available: <a href="https://github.com/jjnicolas/sweep">SweepBar</a>
       (a menu-bar macOS cleanup utility),
+      <a href="https://github.com/jjnicolas/IOS_IPA_Install">iOS IPA Install</a>
+      (install iOS <code>.ipa</code> files to devices via <code>cfgutil</code>),
       <a href="https://github.com/jjnicolas/GridNavigation">GridNavigation</a>
       (a cross-platform SwiftUI grid-navigation library) and
       <a href="https://apps.apple.com/us/app/idigits-math-puzzle-game/id6757621426">iDigits</a>
